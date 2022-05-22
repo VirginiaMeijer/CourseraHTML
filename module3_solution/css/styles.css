@@ -1,0 +1,55 @@
+#header-nav { /*Disable round edges*/
+  border-radius: 0;
+  border: 0;
+  background-color: lightseagreen;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+}
+
+.navbar-brand h1 { /*Company name*/
+  margin-top: -35px;
+  margin-bottom: 0;
+  float: left;
+  color: black;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.container .navbar-collapse{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*Navigation button*/
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle { /*Navigation buton*/
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list { /*Navigation menu*/
+	padding-top: 0;
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+}
+
+#nav-list li {
+	border: 1px solid black;
+	color: black;
+}
+
+#page-heading {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#main-content div {
+	height: 1000px;
+	background-color: lightsteelblue;
+}
